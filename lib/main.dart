@@ -40,6 +40,7 @@ class Suggestions extends StatefulWidget {
 }
 
 class _SuggestionsState extends State<Suggestions> {
+  bool displatselecteditems = false;
   var suggestions = new TextEditingController();
   List<String> specialization = [
     "General Physician",
